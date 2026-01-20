@@ -34,7 +34,7 @@
     color: white;
     padding: 20px 25px;
     font-size:1.5rem;
-    font-weight: 600px;
+    font-weight: 600;
     border-radius: 8px;
     border: none;
 }
@@ -165,7 +165,7 @@ main > section{
     font-size: 4rem;
     font-weight: 700;
 }
-.fearured-architec img{
+.featured-architect img{
     width: 100%;
 }
 /* some facts related styles */
@@ -220,6 +220,8 @@ main > section{
 
 .footer-section{
     justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: #FFF4E7;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -229,7 +231,7 @@ main > section{
 }
 
 .footer-section .footer-title{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 /* responsive media query */
@@ -264,7 +266,8 @@ main > section{
         margin-left: 20px;
     }
 
-    #experience-badge{
+    #experience-badge ,
+    .footer-section{
         margin-top: 20px;
         margin-left: 20px;
     }
