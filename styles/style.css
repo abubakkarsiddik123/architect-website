@@ -84,7 +84,9 @@ main > section{
 }
 
 
-.navbar , .banner{
+.navbar , 
+.banner,
+.footer-section{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -132,7 +134,7 @@ main > section{
     gap: 140px;
 }
 
-#fearure-section-title{
+#feature-section-title{
     border-left: 5px solid #FF900E;
     padding-left: 20px;
 }
@@ -216,6 +218,19 @@ main > section{
     
 }
 
+.footer-section{
+    justify-content: center;
+    background-color: #FFF4E7;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.footer-section .footer-title{
+    font-size: 20px;
+}
 
 /* responsive media query */
 
